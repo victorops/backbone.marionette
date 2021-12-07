@@ -1,7 +1,7 @@
 {
   "name": "backbone.marionette",
   "description": "Make your Backbone.js apps dance!",
-  "version": "2.4.7",
+  "version": "2.4.8",
   "homepage": "https://github.com/marionettejs/backbone.marionette",
   "main": "lib/core/backbone.marionette.js",
   "keywords": [
@@ -40,10 +40,10 @@
   },
   "github": "https://github.com/marionettejs/backbone.marionette",
   "dependencies": {
-    "backbone.babysitter": "^0.1.0",
-    "backbone.wreqr": "^1.0.0",
     "backbone": "1.0.0 - 1.3.x",
-    "underscore": "1.4.4 - 1.8.3"
+    "backbone.babysitter": "https://github.com/victorops/backbone.babysitter/#ba4145273eddd6a8ef32d478f504ac35a5aa6aed",
+    "backbone.radio": "^2.0.0",
+    "underscore": "1.13.1"
   },
   "devDependencies": {
     "chai": "3.4.1",
@@ -70,7 +70,6 @@
     "highlight.js": "9.1.0",
     "jquery": "2.2.0",
     "js-yaml": "3.5.2",
-    "jsdom": "3.1.2",
     "load-grunt-tasks": "3.4.0",
     "marked": "0.3",
     "mocha": "2.3.4",
